@@ -1,0 +1,46 @@
+{
+  "person1": {
+    "name": "Gianmarco",
+    "surname": "Fratto",
+    "acc_type": "corrente",
+    "acc_num": "6748346346",
+    "balance": "6434235",
+    "avatar": "",
+    "transactions": {
+      "incoming": [
+        {
+          "name": "Stipendio Ottobre",
+          "amount": "7873222",
+          "date": "01/10/2018"
+        },
+        {
+          "name": "Cosimo Fiorino",
+          "amount": "234148",
+          "date": "13/09/2018"
+        },
+        {
+          "name": "Pagamento 432",
+          "amount": "1225525",
+          "date": "15/09/2018"
+        }
+      ],
+      "outgoing": [
+        {
+          "name": "Pagamento Carta di Credito",
+          "amount": "532323",
+          "date": "03/10/2018"
+        },
+        {
+          "name": "Amazon",
+          "amount": "54353",
+          "date": "03/10/2018"
+        },
+        {
+          "name": "Mutuo Banca",
+          "amount": "3765394",
+          "date": "29/09/2018"
+        }
+      ]
+    }
+  }
+}
