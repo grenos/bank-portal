@@ -1,0 +1,41 @@
+.eyebrowL{
+  /* transform: translateY(-3px); */
+  /* animation-name: moveUp;
+  animation-duration: .5s; */
+  animation: moveUp ease-in-out .5s;
+
+  /* animation-iteration-count: 2; */
+}
+
+.eyebrowR{
+  /* transform: translateY(-3px); */
+  /* animation-name: moveDown;
+  animation-duration: .5s; */
+  animation: moveDown ease-in-out .5s;
+  /* animation-iteration-count: 2; */
+}
+
+.eye{
+  animation-name: eye;
+  animation-duration: .5s;
+  stroke-width: 0.1;
+}
+
+/* .mouth{
+
+} */
+
+/* @keyframes moveUp {
+  from {transform: translateY(0px);}
+  to {transform: translateY(3px);}
+}
+
+@keyframes moveDown {
+  from {transform: translateY(0px);}
+  to {transform: translateY(-1px);}
+} */
+
+/* @keyframes eye {
+  from { transform: scale(1); }
+  to {transform: scale(0.7);}
+} */

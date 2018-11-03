@@ -9,16 +9,69 @@
     "transactions": {
       "incoming": [
         {
+          "id": 1,
           "name": "Stipendio Ottobre",
-          "amount": "7873222",
+          "amount": "787322",
           "date": "01/10/2018"
         },
         {
+          "id": 2,
           "name": "Cosimo Fiorino",
           "amount": "234148",
           "date": "13/09/2018"
         },
         {
+          "id": 3,
+          "name": "Pagamento 432",
+          "amount": "122552",
+          "date": "15/09/2018"
+        }
+      ],
+      "outgoing": [
+        {
+          "id": 4,
+          "name": "Pagamento Carta di Credito",
+          "amount": "532323",
+          "date": "03/10/2018"
+        },
+        {
+          "id": 5,
+          "name": "Amazon",
+          "amount": "54353",
+          "date": "03/10/2018"
+        },
+        {
+          "id": 6,
+          "name": "Mutuo Banca",
+          "amount": "3765394",
+          "date": "29/09/2018"
+        }
+      ]
+    }
+  },
+  "person2": {
+    "name": "Vasilis",
+    "surname": "Green",
+    "acc_type": "corrente",
+    "acc_num": "6748346346",
+    "balance": "6434235",
+    "avatar": "",
+    "transactions": {
+      "incoming": [
+        {
+          "id": 7,
+          "name": "Stipendio Ottobre",
+          "amount": "7873222",
+          "date": "01/10/2018"
+        },
+        {
+          "id": 8,
+          "name": "Cosimo Fiorino",
+          "amount": "234148",
+          "date": "13/09/2018"
+        },
+        {
+          "id": 8,
           "name": "Pagamento 432",
           "amount": "1225525",
           "date": "15/09/2018"
@@ -26,16 +79,19 @@
       ],
       "outgoing": [
         {
+          "id": 9,
           "name": "Pagamento Carta di Credito",
           "amount": "532323",
           "date": "03/10/2018"
         },
         {
+          "id": 10,
           "name": "Amazon",
           "amount": "54353",
           "date": "03/10/2018"
         },
         {
+          "id": 11,
           "name": "Mutuo Banca",
           "amount": "3765394",
           "date": "29/09/2018"

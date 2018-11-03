@@ -1,26 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import axios from 'axios';
-export const AppContext = React.createContext();
+export const UserContext = React.createContext();
 
-export class StateProvider extends React.Component {
-  state = {
-    person: {}
-  };
+export const StateProvider = memo(props => {
+  const [user, setUser] = useState({ person1: {}, person2: {} });
 
-  componentDidMount() {
+  useEffect(() => {
     axios.get('data/data.json').then(res => {
-      let person = res.data.person1;
-      this.setState({ person });
+      let person1 = res.data.person1;
+      let person2 = res.data.person2;
+      setUser({ person1, person2 });
     });
-  }
+  }, []);
 
-  render() {
-    console.log(this.state.person);
-    //
-    const { children } = this.props;
-    //
-    return (
-      <AppContext.Provider value={this.state}>{children}</AppContext.Provider>
-    );
-  }
-}
+  const { children } = props;
+  //
+  return <UserContext.Provider value={user}>{children}</UserContext.Provider>;
+});
